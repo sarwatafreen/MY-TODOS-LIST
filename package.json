@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "i am create todos",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
 }
